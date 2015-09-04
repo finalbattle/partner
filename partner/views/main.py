@@ -9,7 +9,7 @@ import urllib
 import urllib2
 import time
 
-@url("/", name="index")
+@url("/index", name="index")
 class MainHandler(Handler):
     def get(self):
         data = {"name": "torweb"}
