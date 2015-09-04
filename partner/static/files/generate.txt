@@ -1,0 +1,1 @@
+ffmpeg -i VID_20150817_114715.mp4 -ss 00:00:09 -s 240x320 -r 1 -vframes 24 -q:v 2 -f image2 image-1%d.jpeg
