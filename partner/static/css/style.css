@@ -1,0 +1,9 @@
+.masthead.bg:after {
+  background-image: url("/static/images/hand.jpg");
+}
+.ui.inverted.segment, .ui.primary.inverted.segment {
+  background: url("/static/images/hand.jpg");
+  background-size: 100% 100%;
+  /*background: none repeat scroll 0 0;*/
+  color: rgba(255, 255, 255, 0.9)
+}

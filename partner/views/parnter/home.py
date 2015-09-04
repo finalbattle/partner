@@ -7,4 +7,4 @@ from partner.handlers import Handler
 @url("/", name="partner.home")
 class HomeHandler(Handler):
     def get(self):
-        return self.render("partner/home.html")
+        return self.render("partner/home/home.html")
